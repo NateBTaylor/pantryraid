@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="./pantry-raid-icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantry Raid</title>
+</head>
+<body>
+    <header>
+        <img src="./pantry-raid-logo.png" alt="Pantry Raid">
+    </header>
+    <section>
+        <div class="ingredients">
+            <h3>Key Ingredients you have:</h3>
+            <input id="ingredients" type="text" class="ing" placeholder="Separate with comma .e.g., cheese, eggs...">
+        </div>
+
+        <div class="options">
+            <div>
+                <label for="meal" id="meal-label">Dish</label>
+                <select name="meal" id="meal">
+                    <option value="lunch">Lunch</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="dinner">Dinner</option>
+                </select>
+            </div>
+            <div>
+                <label for="style" id="style-label">Style</label>
+                <select name="style" id="style">
+                    <option value="american">American</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="french">French</option>
+                    <option value="italian">Italian</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="indian">Indian</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="morrocan">Morrocan</option>
+                    <option value="thai">Thai</option>
+                    <option value="viatnamese">Viatnamese</option>
+                    <option value="korean">Korean</option>
+                    <option value="greek">Greek</option>
+                    <option value="african">African</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="brazilian">Brazilian</option>
+                    <option value="middle eastern">Middle Eastern</option>
+                </select>
+            </div>
+            <div>  
+                <label for="dish" id="dish-label">Type</label>
+                <select name="dish" id="dish">
+                    <option value="entree">Entree</option>
+                    <option value="appetizer">Appetizer</option>
+                    <option value="side">Side</option>
+                    <option value="dessert">Dessert</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="create-button">Create Recipe</button>
+    </section>
+
+    <section>
+        <h1 id="recipe-name">Recipe</h1>
+        <p id="recipe">Recipe will appear here.</p>
+        <button id="copy-button"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg></button>
+    </section>
+
+    <footer>
+        <h3>Made by Nate and Michael</h3>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
