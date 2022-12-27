@@ -74,6 +74,7 @@ button {
     background:#F5A623;
     cursor:pointer;
     transition:all ease 200ms;
+    color:black;
 }
 button:hover {
     background:#ffb338;
