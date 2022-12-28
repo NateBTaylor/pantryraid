@@ -1,5 +1,4 @@
 const express = require('express');
-// const gpt = require('./api')
 const { Configuration, OpenAIApi } = require("openai")
 require("dotenv").config()
 
