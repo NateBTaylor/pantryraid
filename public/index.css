@@ -151,3 +151,29 @@ footer h3 {
     padding:1rem;
     font-size:1rem;
 }
+
+.affiliate-link {
+    background:transparent;
+    box-shadow:none;
+    margin:-1.5rem auto;
+    font-size:1rem;
+    color:#464646;
+}
+
+.affiliate-link div {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.affiliate-link a {
+    color: #885a0f;
+    text-decoration:none;
+    transition: all ease 200ms;
+}
+a:hover {
+    color:#ffb338;
+}
+
+.affiliate-link h3 {
+    color:rgb(138, 136, 136);
+}
