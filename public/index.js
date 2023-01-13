@@ -18,7 +18,7 @@ async function getQuery() {
     let dish = document.getElementById("dish").value
     
     if (ingredients.value.length > 0) {
-        document.getElementById("recipe").innerText = "loading... May take 10 seconds";
+        document.getElementById("recipe").innerText = "loading... May take 10-30 seconds";
 
         let query = `Recipe of a ${dish} for ${meal} in a ${style} style that may involve these ingredients: ${ingredients.value}:`;
         ingredients.style.backgroundColor = "white";
