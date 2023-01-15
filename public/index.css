@@ -166,12 +166,12 @@ footer h3 {
 }
 
 .affiliate-link a {
-    color: #885a0f;
+    color: #ffb338;
     text-decoration:none;
     transition: all ease 200ms;
 }
 a:hover {
-    color:#ffb338;
+    color:#885a0f;
 }
 
 .affiliate-link h3 {
